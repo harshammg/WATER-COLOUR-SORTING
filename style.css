@@ -44,12 +44,12 @@ body {
 }
 
 .lvl {
-    position: center;
+    position: relative;
     margin-top: 30px;
     left: 10px;
-    width: calc(80% - 10%);
+    width: calc(100vw - 20px);
     height: 80px;
-    color: rgb(255, 255, 255);
+    color: white;
     background-color: #00D387;
     text-align: center;
     font-size: 30px;
