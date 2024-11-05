@@ -30,7 +30,7 @@
         }
         
         #timer-container {
-            background-color: rgba(0, 0, 0, 0.8);
+            background-color: rgba(135, 205, 182, 0.8);
             color: white;
             padding: 15px 25px;
             border-radius: 12px;
@@ -41,11 +41,11 @@
         }
         
         .timer-label {
-            font-size: 14px;
+            font-size: 20px;
             display: block;
             text-align: center;
             margin-bottom: 5px;
-            color: #ffc107;
+            color: #ffffff;
             text-transform: uppercase;
             letter-spacing: 1px;
         }
@@ -116,8 +116,9 @@
 </head>
 <body>
     <div id="game">
+        <div align ="center">
         <div id="menu">
-            <div id="menu-heading"> < / lEGENDS WATER SORT PUZZLE  > </div>					
+            <div id="menu-heading"> < / WATER COLOUR SORT CHALLENGE  > </div>					
             <div class="lvl" id="easy" onclick="OpenLevel(0);">EASY</div>
             <div class="lvl" id="medium" onclick="OpenLevel(1);">MEDIUM</div>
             <div class="lvl" id="hard" onclick="OpenLevel(2);">HARD</div>
@@ -125,6 +126,7 @@
             <div class="lvl" id="impossible" onclick="OpenLevel(7);">IMPOSSIBLE</div>
             <br><br><br>
             <div id="rules-btn" onclick="ShowRules();">RULES</div>
+        </div>
         </div>
         <div id="level"></div>
         <div id="rules-page">
@@ -138,7 +140,7 @@
 
     <div id="timer-footer">
         <div id="timer-container">
-            <span class="timer-label">Time</span>
+            <span class="timer-label">START TIMER</span>
             <span id="timer">00:00</span>
             <div class="timer-controls">
                 <button id="start-timer" class="timer-btn">Start</button>
