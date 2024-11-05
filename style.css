@@ -47,7 +47,7 @@ body {
     position: relative;
     margin-top: 30px;
     left: 10px;
-    width: calc(70vw - 10px);
+    width: calc(50% - 10%);
     height: 80px;
     color: white;
     background-color: #00D387;
